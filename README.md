@@ -5,6 +5,25 @@ CREATE TABLE users (
     fiyat DECIMAL(10, 2) NOT NULL,
     telefon VARCHAR(20) NOT NULL
 );
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Formu</title>
+</head>
+<body>
+    <h2>Kayıt Formu</h2>
+    <form action="kayit.php" method="post">
+        <label for=" ad ">Ad:</label>
+        < ihm So Can So
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    ad VARCHAR(50) NOT NULL,
+    soyad VARCHAR(50) NOT NULL,
+    fiyat DECIMAL(10, 2) NOT NULL,
+    telefon VARCHAR(20) NOT NULL
+);
 **<!DOCTYPE html>
 <html lang="en">
 <head>
